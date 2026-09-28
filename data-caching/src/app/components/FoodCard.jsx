@@ -4,7 +4,7 @@ import Link from "next/link";
 
 
 const FoodCard = ({food}) => {
-    const {id,dish_name,image_link}=food;
+    const {id,dish_name,image_link,}=food;
     return (
         <div>
             <div className="card bg-base-100  shadow-sm">
